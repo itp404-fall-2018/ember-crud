@@ -15,6 +15,6 @@ export default function() {
   this.get('/posts');
   this.post('/posts');
   this.get('/posts/:id');
-  this.put('/posts/:id'); // or this.patch
+  this.patch('/posts/:id'); // or this.patch
   this.del('/posts/:id');
 }

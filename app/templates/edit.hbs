@@ -1,0 +1,12 @@
+<form onsubmit={{action "editPost" model}}>
+  <div>
+    <label for="title">Title</label>
+    {{input type="text" id="title" value=model.title}}
+  </div>
+  <div>
+    <label for="body">Post</label>
+    {{textarea rows="8" cols="80" value=model.body}}
+  </div>
+
+  <button type="submit">Publish</button>
+</form>

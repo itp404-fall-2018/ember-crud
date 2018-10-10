@@ -1,0 +1,12 @@
+<form onsubmit={{action "createPost"}}>
+  <div>
+    <label for="title">Title</label>
+    {{input type="text" id="title" value=title}}
+  </div>
+  <div>
+    <label for="body">Post</label>
+    {{textarea rows="8" cols="80" value=body}}
+  </div>
+
+  <button type="submit">Publish</button>
+</form>
